@@ -1,4 +1,82 @@
 
+.footer{
+    background-color: lightpink;
+    position: absolute;bottom: 0; right: 0px;
+    height: 195px;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-top-left-radius: 15px ;
+    border-top-right-radius: 15px;
+}
+
+.footer {.fb{
+    width: 40px;
+}
+.insta{
+    width: 80px;
+}
+.tik{
+    width:43px
+}
+.in{
+    width: 60px;
+}}
+
+.icons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    right: 50px;
+    top: 60px;
+    gap: 25px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+align-items: center;
+position: absolute;
+left: 30px;
+gap: 40px;
+}
+
+
+
+ul {
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+  }
+  
+  
+  h2 {
+    font-size: 24px; 
+    font-weight: bold; 
+    margin-bottom: 10px; 
+    color: rgb(148, 24, 65); 
+  }
+  
+  
+  ul li a {
+    font-size: 1.3em; 
+    text-decoration: none;
+    color: rgb(212, 48, 116); 
+    display: block; 
+    padding: 5px 0; 
+  }
+  
+
+  ul li a:hover {
+    color: rgb(58, 121, 172); 
+  }
+  
+  
+ 
+  
+
+
 .navbar {
     background-color: #333;
     overflow: hidden;
@@ -17,3 +95,4 @@
     background-color: #ddd;
     color: black;
 }
+
